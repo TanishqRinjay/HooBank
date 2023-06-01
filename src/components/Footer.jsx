@@ -31,7 +31,7 @@ const Footer = () => (
     </div>
 
     <div className='flex justify-between w-full items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
-      <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-dimWhite'>2021 HookBank. All Rights Reserved.</p>
+      <p className='font-poppins font-normal text-center text-[18px] leading-[27px] text-dimWhite'>Copyright <span className='text-[20px]'>©</span> 2021 HookBank. All Rights Reserved.</p>
       <div className='flex flex-row md:mt-0 mt-6'>
         {socialMedia.map((social, index) => (
           <img key={social.id}
